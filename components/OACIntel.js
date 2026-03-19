@@ -906,7 +906,7 @@ function AdminLogin({ onSuccess, onBack }) {
 const S = {
   root:{ minHeight:'100vh',background:'#050505',display:'flex',alignItems:'center',justifyContent:'center',fontFamily:"'Cormorant Garamond',serif",position:'relative',padding:'20px 20px 0' },
   glow:{ position:'fixed',inset:0,background:'radial-gradient(ellipse at 50% 20%,rgba(200,168,75,0.04) 0%,transparent 55%)',pointerEvents:'none' },
-  phone:{ width:390,maxWidth:'100%',minHeight:844,background:'#080808',borderRadius:44,border:'1px solid #141414',overflow:'hidden',position:'relative',display:'flex',flexDirection:'column',boxShadow:'0 60px 140px rgba(0,0,0,0.9),0 0 0 1px rgba(200,168,75,0.05)' },
+  phone:{ width:'100%',background:'#080808',minHeight:'100vh',display:'flex',flexDirection:'column' },
   notch:{ width:120,height:26,background:'#050505',borderRadius:'0 0 16px 16px',margin:'0 auto' },
   statusBar:{ display:'flex',justifyContent:'space-between',alignItems:'center',padding:'0 26px 5px' },
   header:{ padding:'5px 20px 12px',display:'flex',justifyContent:'space-between',alignItems:'center' },
